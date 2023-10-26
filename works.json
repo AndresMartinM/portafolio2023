@@ -1,6 +1,5 @@
 [
 {
-// Articulo numero 1
   "title": "Miniaturas y Maquetas",
   "year": "2018",
   "text": [
@@ -14,7 +13,6 @@
   ]
 },
 {
-// Articulo numero 2
   "title": "Proyectos Electrónicos",
   "year": "2022-2023",
   "text": [
@@ -45,7 +43,6 @@
   ]
 },
 {
-// Articulo numero 3
   "title": "Animación",
   "year": "¿?-2023",
   "text": [
@@ -58,23 +55,6 @@
 	"img/3/3.gif",
 	"img/3/1.gif",
 	"img/3/2.gif"
-  ]
-},
-{
-// Articulo numero 4
-  "title": "Juegos y Videojuegos",
-  "year": "2017-2023",
-  "text": [
-  "Un precioso arte interactivo que he disfrutado.",
-  "Una de mis mayores inquietudes ha sido la del diseño de videojuegos en todas sus etapas, por lo que me he propuesto muchas veces el hacer videojuegos logrando terminar un par de proyectos de menor tamaño, y teniendo un par más congelados; esto me ha permitido pasar por varios roles del desarrollo, como el diseño de producción, el arte concepto, el modelado de personajes, la programación, y claro el diseño integral del videojuego.",
-  "A partir de mi experiencia he incorporado elementos lúdicos en proyectos académicos que lo ameritaban, como el juego de cartas de CODICE en el que trabajé junto a Amanda Iriarte y Jose Martín, o el juego Trouble Machine que desarrollamos Valentina Quilodrán, Amanda Iriarte, Paulina Abad, Anahí Perez y Ximena Saldivia; el primero un juego para que los niños aprendan de otros niños sus costumbres, y el segundo un juego que ayuda a la construcción y resolución de problemas, y la comprensión del mismo."
-  ],
-  "image": [
-	"img/4/0.webp",
-	"img/4/1.webp",
-	"img/4/2.webp",
-	"img/4/3.webp",
-	"img/4/4.webp"
   ]
 }
 ]
