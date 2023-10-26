@@ -1,0 +1,22 @@
+{
+  "short_name": "Andrés Martin",
+  "name": "Portafolio 2023 | Andrés Martin",
+  "start_url": "https://andresmartinm.github.io/portafolioAnim2023/",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#f8f8f8",
+  "description": "Weather forecast information",
+  "screenshots": [
+    {
+      "src": "/img/screenshot1.PNG",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/img/screenshot2.JPG",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
+}
