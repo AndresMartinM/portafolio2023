@@ -1,48 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@700&family=Vollkorn:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Open+Sans:ital,wght@0,500;1,600&display=swap');
 
 :root {
-	--cafe : #000000;
-	--cafeclaro : #111111;
-	--amarillo : #f8f8f8;
-	--rojo : #ff8145;
-	--azul : #00476f;
-	--celeste : #a3deff;
-	--verde : #b9ff71;
+	--gris : #444;
+	--negro : #222;
+	--blanco : #eee;
+	--color : #faaa22;
+	--color2 : #ffdd44;
 	
 	--borde : 4px;
 	--margen : 4px;
 	--altobase : 14rem;
 	
-	--bs-body-font-family: 'Vollkorn', serif;
-	--bs-body-color: var(--amarillo);
+	--bs-body-font-family: 'Open Sans', sans-serif;
+	--bs-body-color: var(--blanco);
 }
 
-.cafe {color : var(--amarillo); background : var(--cafe);}
-.amarillo {color : var(--cafe); background : var(--amarillo);}
-.rojo {color : var(--cafe); background : var(--rojo);}
-.azul {color : var(--celeste); background : var(--azul);}
-.celeste {color : var(--azul); background : var(--celeste);}
-.verde {color : var(--azul); background : var(--verde);}
+.oscuro {color : var(--blanco); background : var(--gris);}
+.claro {color : var(--gris); background : var(--blanco);}
+.color {color : var(--gris); background : var(--color); transition : background 0.4s;}
+.color:hover { background : var(--color2); }
 
 body {
 	background: rgb(77,49,36);
-	background: linear-gradient(90deg, var(--cafeclaro) 0%, var(--cafe) 20%, var(--cafe) 80%, var(--cafeclaro) 100%);
+	background: linear-gradient(90deg, var(--negro) 0%, var(--gris) 20%, var(--gris) 80%, var(--negro) 100%);
 	
 }
 
 h1 {
-	font-family: 'Vollkorn SC', serif;
-	font-size : 1.6rem;
+	font-family: 'Comfortaa', sans-serif;
+	font-size : 1.4rem;
 }
 
 h2 {
 	font-style: italic;
-	font-size : 1.4rem;
+	font-size : 1rem;
 }
 
 h3 {
 	font-size : 1.1rem;
-	font-family: 'Vollkorn SC', serif;
+	font-family: 'Comfortaa', sans-serif;
 }
 
 h4 {
@@ -51,7 +47,7 @@ h4 {
 }
 
 p {
-	font-size : 1.1rem;
+	font-size : 1rem;
 	
 }
 small {
@@ -64,8 +60,8 @@ main {
 }
 
 .volver {
-	background : var(--cafe);
-	border : 1px solid var(--amarillo);	
+	background : var(--gris);
+	border : 1px solid var(--blanco);	
 	height : 2rem;
 	width : 2rem;
 	top : 1rem;
@@ -76,22 +72,22 @@ main {
 	padding : 0.25rem 0.6rem ;
 	text-align : right;
 	text-decoration : none;
-	color : var(--cafe);
+	color : var(--gris);
 	transition : width 0.4s , color 0.6s;
 	z-index : 100;
 }
 .volver:hover {
 	width : 6rem;
 	overflow : visible;
-	color : var(--amarillo);
+	color : var(--blanco);
 }
 .volver div {
-	color : var(--cafe);
+	color : var(--gris);
 	margin : 0;
 	position : absolute;
 	top : -1px;
 	left : -1px;
-	background : var(--amarillo);	
+	background : var(--blanco);	
 	height : 2rem;
 	width : 2rem;
 	border-radius : 1rem;
@@ -103,12 +99,12 @@ main {
 
 .articulo small {
 	font-style: italic;
-	color : var(--amarillo);
-	background : var(--cafe);
+	color : var(--blanco);
+	background : var(--gris);
 	height : auto;
 	padding : 0.25rem 0.6rem;
 	border-radius : 50vh;
-	border : 1px solid var(--amarillo);
+	border : 1px solid var(--blanco);
 }
 #texto {
 	padding : 1rem;
@@ -135,14 +131,14 @@ main {
 	padding : 20px;
 	position : absolute;
 	bottom : -40px;
-	text-shadow: 0px 0px 5px var(--cafe);
+	text-shadow: 0px 0px 5px var(--gris);
 }
 .tarjeta-perfil .foto .presentacion h1 {
-	color : var(--amarillo);
+	color : var(--blanco);
 }
 
 .tarjeta-perfil{
-	background : var(--cafe);
+	background : var(--gris);
 	position : relative;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -151,7 +147,7 @@ main {
 	width : 100%;
 	height : calc(3*var(--altobase) - 2*var(--margen));
 	
-	border : 1px solid var(--amarillo);	
+	border : 1px solid var(--blanco);	
 	
 }
 .tarjeta-perfil .enlaces {
@@ -171,16 +167,13 @@ main {
 	text-align : center;
 	width : 100%;
 	border-radius : var(--borde);
-	transition : width 0.4s, padding 0.6s, margin 0.4s;
-}
-.enlaces a:hover {
-	width : 90%;
-	padding : 0.75rem 0;
-	margin : 0 5%;
+	background-color : --color;
+	transition : background-color 0.4s;
 }
 
+
 .tarjeta {
-	background : var(--cafe);
+	background : var(--gris);
 	position : relative;
 	background-position: center !important;
 	background-repeat: no-repeat;
@@ -191,13 +184,13 @@ main {
 	
 }
 .tarjeta:hover {
-	border : 1px solid var(--amarillo);
+	border : 1px solid var(--blanco);
 	
 }
 
 .tarjeta-perfil .sombra{
 	mask: linear-gradient(to top, white, transparent);
-	background : var(--cafe);
+	background : var(--gris);
 	height : 33%;
 	width : 100%;
 	position : absolute;
@@ -237,7 +230,7 @@ main {
 }
 
 .tarjeta h3{
-	color : var(--amarillo);
+	color : var(--blanco);
 	margin : 1rem;
 	bottom : 2rem;
 	right : 0;
@@ -249,7 +242,7 @@ main {
 }
 .tarjeta:hover h3 {
 	bottom : 8rem;
-	color : var(--amarillo);
+	color : var(--blanco);
 	opacity : 100%;
 }
 .col-lg-6 .tarjeta-md .tarjeta h3 , .tarjeta-lg .tarjeta h3{
@@ -257,7 +250,7 @@ main {
 }
 
 .tarjeta h4{
-	color : var(--amarillo);
+	color : var(--blanco);
 	margin : 1rem;
 	bottom : 0;
 	left : 0;
@@ -266,8 +259,8 @@ main {
 }
 
 .tarjeta p{
-	font-family: 'Vollkorn', serif;
-	color : var(--amarillo);
+	font-family: 'Open Sans', sans-serif;
+	color : var(--blanco);
 	margin : 0;
 	top : 0;
 	right : 0;
@@ -289,7 +282,7 @@ main {
 .tarjeta:hover p{
 	transition-delay : 0.4s;
 	top : 2.6rem;
-	color : var(--amarillo);
+	color : var(--blanco);
 	opacity : 100%;
 	
 }
